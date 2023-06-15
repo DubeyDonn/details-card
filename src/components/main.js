@@ -17,7 +17,7 @@ export default function Main() {
             window.open("mailto: nirajshrestha539@gmail.com", "_blank")
           }
         >
-          <img src={gmail} className="media-icon" />
+          <img src={gmail} alt="gmail" className="media-icon" />
           <p>Gmail</p>
         </button>
         <button
@@ -29,7 +29,7 @@ export default function Main() {
             )
           }
         >
-          <img src={linkedIn} className="media-icon" />
+          <img src={linkedIn} alt="linkedIn" className="media-icon" />
           <p>LinkedIn</p>
         </button>
       </div>
