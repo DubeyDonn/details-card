@@ -1,13 +1,145 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 44px 117px;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/background.jpg");
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 29rem;
+  border-radius: 15px;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* border: 1px solid #d1d5db; */
+}
+
+.header--img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  margin-bottom: 31.5px;
+}
+
+.header--name {
+  margin-top: 1.3125rem;
+  margin: 0px;
+  margin-bottom: 6.19px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.5px;
+  line-height: 45px;
+}
+
+.header--role {
+  margin: 0px;
+  margin-bottom: 13.215px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 22.5px;
+}
+.header--gmail {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.36px;
+  line-height: 150%;
+}
+
+.media {
+  display: flex;
+  margin: 0px;
+}
+.media > button:nth-child(2) {
+  margin-left: 25.5px;
+}
+
+.media-btn {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 172.5px;
+  height: 51px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 9px;
+  border: none;
+  margin-bottom: 67.8px;
+  cursor: pointer;
+}
+
+.linkedIn {
+  background: #5093e2;
+  color: white;
+}
+
+.gmail {
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+.media-icon {
+  height: 19.2px;
+  margin-right: 14.4px;
+}
+
+.main {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 0px 36px;  */
+  background: #1a1b21;
+}
+
+.main-body {
+  padding: 0px 54px;
+}
+
+.main-body-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0px;
+  margin-bottom: 7.5px;
+}
+.main-body-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.36px;
+  line-height: 150%;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  /* border: 2px solid black; */
+  height: 96px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-icon {
+  height: 37.5px;
+  margin-right: 36px;
+}
+.footer-last-icon {
+  margin-right: 0px;
+}
+
+.footer-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0px;
 }
